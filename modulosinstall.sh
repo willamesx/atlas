@@ -16,4 +16,3 @@ apt install dos2unix
 dos2unix rem.sh
 wget "https://raw.githubusercontent.com/willamesx/atlas/main/verificador.py" -O verificador.py 
 python3 verificador.py
-https://raw.githubusercontent.com/willamesx/atlas/main/modulosinstall.sh
