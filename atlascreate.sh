@@ -2,12 +2,12 @@
 
 username=$1
 password=$2
-dias=$3
-sshlimiter=$4
+sshlimiter=$3  # <--- Invertido
+dias=$4        # <--- Invertido
 
-# Se dias ou limite vierem vazios, define valores padrão
-if [ -z "$dias" ]; then dias=30; fi
+# Se limite ou dias vierem vazios, define valores padrão
 if [ -z "$sshlimiter" ]; then sshlimiter=1; fi
+if [ -z "$dias" ]; then dias=30; fi
 
 # Calcula a data de expiração
 dias=$(($dias+1))
